@@ -30,3 +30,13 @@ h1, h2, h3, h4, h5, h6 {
    font-size: 200%;
    font-weight: bold;
 }
+.main-navigation li.current-menu-item > a, .main-navigation li.current-menu-ancestor > a, .main-navigation li.current-menu-item:hover > a, .main-navigation li.current-menu-ancestor:hover > a, .main-navigation .menu li a {
+      background: transparent;
+      color: #fff;
+}
+.main-navigation .menu li:hover {
+      background: inherit;
+}
+.main-navigation .menu li a:hover {
+      color: #00ff00;
+}
