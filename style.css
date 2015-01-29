@@ -1,42 +1,28 @@
 /*
- Theme Name:   P2 Child
- Description:  P2 Child Theme
+ Theme Name:   2015 Child
+ Description:  2015 Child Theme
  Author:       Steven Stern
  Author URI:   http://www.sterndata.com
- Template:     p2
+ Template:     twentyfifteen
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  p2-child
+ Text Domain:  2015-child
 */
-body {
+
+body,
+button,
+input,
+select,
+textarea,
+html {
     font-family: 'Raleway','Open Sans', sans-serif;
-    background-attachment: fixed;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.site-description {
     font-family: 'Bitter', serif;
 }
-#header .sleeve {
-   background: inherit;
-   box-shadow: none;
-}
-#header h1 a,
-#header small {
-   color: #fff;
-   text-shadow: 1px 1px #000;
-}
-#header small {
-   font-size: 200%;
-   font-weight: bold;
-}
-.main-navigation li.current-menu-item > a, .main-navigation li.current-menu-ancestor > a, .main-navigation li.current-menu-item:hover > a, .main-navigation li.current-menu-ancestor:hover > a, .main-navigation .menu li a {
-      background: transparent;
-      color: #fff;
-}
-.main-navigation .menu li:hover {
-      background: inherit;
-}
-.main-navigation .menu li a:hover {
-      color: #00ff00;
+ul, ol {
+    margin-left: 2em;
 }
