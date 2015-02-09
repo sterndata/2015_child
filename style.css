@@ -36,3 +36,6 @@ blockquote {
 #colophon {
     margin-bottom: 1em;
 }
+.entry-content img {
+   box-shadow: 0 0 15px #ccc;
+}
