@@ -39,3 +39,8 @@ blockquote {
 .entry-content img {
    box-shadow: 0 0 15px #ccc;
 }
+.wp-caption-text {
+   font-style: italic;
+   font-size: 80%;
+   text-align:center;
+}
