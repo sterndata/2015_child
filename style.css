@@ -44,3 +44,6 @@ blockquote {
    font-size: 80%;
    text-align:center;
 }
+.jetpack-video-wrapper .twitter-tweet-rendered{
+   width: 100% !important;
+}
