@@ -28,3 +28,6 @@ function footer_sidebar() {
 
 // Hook into the 'widgets_init' action
 add_action( 'widgets_init', 'footer_sidebar',50 );
+
+// Allow photon on secure url.
+add_filter( 'jetpack_photon_reject_https', '__return_false' );
