@@ -30,6 +30,9 @@ blockquote {
     font-size: 1.75rem;
     margin-left: 1.25em;
 }
+.site-info {
+    text-align: center;
+}
 .site-footer .widget {
     margin-bottom: 0;
 }
