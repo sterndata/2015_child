@@ -35,6 +35,8 @@ blockquote {
 }
 .site-footer .widget {
     margin-bottom: 0;
+    padding-left:0;
+    padding-right: 0;
 }
 #colophon {
     margin-bottom: 1em;
